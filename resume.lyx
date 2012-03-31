@@ -1,0 +1,275 @@
+#LyX 1.6.7 created this file. For more info see http://www.lyx.org/
+\lyxformat 345
+\begin_document
+\begin_header
+\textclass simplecv
+\use_default_options true
+\language english
+\inputencoding auto
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\cite_engine basic
+\use_bibtopic false
+\paperorientation portrait
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\author "" 
+\author "" 
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Amber Jain
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing other 0.1
+\align center
+
+\series bold
+Resume
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+The latest version of this resume is available at http://amberj.devio.us/resume.htm
+l
+\end_layout
+
+\end_inset
+
+ (March 2012)
+\end_layout
+
+\begin_layout Section
+Contact
+\end_layout
+
+\begin_layout Standard
+
+\shape italic
+Address:
+\shape default
+ 24-B, Siddharth Nagar
+\end_layout
+
+\begin_layout Standard
+\noindent
+Behind Gurjar Hospital, Bhanwarkua
+\end_layout
+
+\begin_layout Standard
+\noindent
+Indore (452001), Madhya Pradesh, India
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\shape italic
+Web:
+\shape default
+ http://amberj.devio.us/
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\shape italic
+Phone:
+\shape default
+ (+91)98066-50305
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\shape italic
+Email:
+\shape default
+ i.amber.jain[AT]gmail[DOT]com
+\end_layout
+
+\begin_layout Section
+Academic Interests
+\end_layout
+
+\begin_layout Standard
+Computational Intelligence, Machine Learning, Natural Language Processing.
+\end_layout
+
+\begin_layout Section
+Education
+\end_layout
+
+\begin_layout Itemize
+International Institute of Professional Studies, Devi Ahilya University
+\begin_inset Newline newline
+\end_inset
+
+Master of Computer Applications, Expected May 2013.
+\end_layout
+
+\begin_layout Itemize
+http://www.udacity.com/overview/Course/cs101
+\begin_inset Newline newline
+\end_inset
+
+CS101: Building a Search Engine (taught by Prof.
+ David Evans of University of Virginia), Expected April 2012.
+\end_layout
+
+\begin_layout Itemize
+http://www.ml-class.org/
+\begin_inset Newline newline
+\end_inset
+
+Machine Learning (taught by Prof.
+ Andrew Ng of Stanford University), October - December 2011, Score: 77 out
+ of 80 (Review questions), 800 out of 800 (Programming exercises).
+\end_layout
+
+\begin_layout Itemize
+https://www.ai-class.com/
+\begin_inset Newline newline
+\end_inset
+
+Introduction to Artificial Intelligence (taught by Prof.
+ Sebastian Thrun and Prof.
+ Peter Norvig of Stanford University), October - December 2011, Percentage:
+ 91.7%.
+\end_layout
+
+\begin_layout Itemize
+International Institute of Professional Studies, Devi Ahilya University
+\begin_inset Newline newline
+\end_inset
+
+Bachelor of Computer Applications, July 2007 - May 2010, CGPA: 7.55 (out
+ of 10).
+\end_layout
+
+\begin_layout Section
+Publications
+\end_layout
+
+\begin_layout Standard
+Visit http://amberj.devio.us/pubs.html for list of my publications.
+\end_layout
+
+\begin_layout Section
+Project
+\end_layout
+
+\begin_layout Standard
+Visit http://amberj.devio.us/projects.html for list of my projects.
+\end_layout
+
+\begin_layout Section
+Computer skills
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Programming languages:
+\shape default
+ C, MATLAB/Octave, Python, HTML, CSS.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Operating Systems:
+\shape default
+ Unix-like, Windows.
+\end_layout
+
+\begin_layout Itemize
+
+\shape italic
+Version Control Systems:
+\shape default
+ Git, Mercurial, Subversion.
+\end_layout
+
+\begin_layout Section
+Languages
+\end_layout
+
+\begin_layout Itemize
+Hindi (Native language).
+\end_layout
+
+\begin_layout Itemize
+English.
+\end_layout
+
+\begin_layout Section
+Work experience
+\end_layout
+
+\begin_layout Standard
+None.
+\end_layout
+
+\begin_layout Section
+References (in alphabetical order)
+\end_layout
+
+\begin_layout Itemize
+Shaligram Prajapat, Associate Professor, International Institute of Professional
+ Studies, Devi Ahilya University.
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+Web:
+\shape default
+ https://sites.google.com/site/shaligramiipsdavvindore/
+\begin_inset Newline newline
+\end_inset
+
+
+\shape italic
+Email:
+\shape default
+ shaligram.prajapat[AT]gmail[DOT]com
+\end_layout
+
+\begin_layout Itemize
+Vivek Shrivastava, Assistant Professor, International Institute of Professional
+ Studies, Devi Ahilya University.
+\begin_inset Newline newline
+\end_inset
+
+Email: shrivastava.vivex[AT]gmail[DOT]com
+\end_layout
+
+\end_body
+\end_document
