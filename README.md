@@ -1,5 +1,5 @@
 ## About
-Amber Jain's (http://amberj.devio.us/) Résumé/Vitae.
+Amber Jain's (http://amberja.in/) Résumé/Vitae.
 
 ## Files
 This repository contains:
@@ -8,9 +8,9 @@ This repository contains:
 * *resume.cls*: LaTeX style file (to accompany *amberj-resume.tex*).
 * *README*: This readme file.
 
-## Thanks
-I modified a LaTeX document style/source I found on Internet for typesetting my Résumé:
+## Credits
+I heavily modified a LaTeX document style/source I found on Internet for typesetting my Résumé:
 
 * Thanks to [Michael Wheeler](https://github.com/TheSkorm) for sharing his Résumé's LaTeX source and document class files.
 * According to Michael Wheeler, he found these files on [Kamil Wójcicki](http://linux.dsplabs.com.au/resume-writing-example-latex-template-linux-curriculum-vitae-professional-cv-layout-format-text-p54/)'s blog.
-* And according to Kamil Wójcicki, the credit for these files goes to Michael DeCorte for the Résumé style file and to [Chris Paciorek](http://www.stat.berkeley.edu/~paciorek/) for the Résumé template.
+* And according to Kamil Wójcicki's website, the credit for these files goes to Michael DeCorte for the Résumé style file and to [Chris Paciorek](http://www.stat.berkeley.edu/~paciorek/) for the Résumé template.
