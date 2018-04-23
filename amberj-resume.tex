@@ -1,12 +1,13 @@
-\documentclass[margin,line]{resume}
+\documentclass[overlapped,centered]{resume}
 \usepackage{hyperref}
 
 \begin{document}
 
 \name{\Large Amber Jain's \Resume \footnote{The latest version of this resume is available at \url{http://amberja.in/resume.html}}}
 
-\begin{resume}
+\address{Growth Engineering, Backend, DevOps}
 
+\begin{resume}
     % Contact Information
     \section{\mysidestyle Contact}
     \begin{tabular}{@{} l @{\hspace{68mm}} r}
@@ -24,31 +25,82 @@
 
     \begin{list2}
     
-    \item \textbf{CEO/Cofounder - HashGrowth.com (Y Combinator SUS17)} \hspace{25mm} August 2016 - now \\ Analytics, Keyword Research \& Insights for App Stores to drive organic mobile growth (SaaS MarTech).
+    \item \textbf{CEO/Cofounder - HashGrowth.com (Y Combinator SUS17)} \hspace{23mm} August 2016 - now \\ Lead Product \& Growth for a SaaS product to drive organic reach of mobile apps on Play/App Store using Analytics, Keywords Research \& Insights.
     
-    \item \textbf{Founder - Viralcents.com} \hspace{82mm} Feb 2016 - May 2016 \\ B2B2C product for incentivized social sharing of advertisor's content by on social profile of publishers.
+	\setlength{\leftskip}{15pt}
+	
+		- Bootstraped \& built the SaaS product with a team of 3 using Python, Django, RabbitMQ, Celery, PostgreSQL, uWSGI, Nginx, AWS etc.
+ 
+		- Lead B2B growth by increasing customer base from from 0 to first 50 companies within a month of private beta launch.
+ 
+ 		- Optimized the backend \& AWS infrastructure to handle over 300,000 API hits on a daily basis in a monthly budget of \$300 on AWS.
+ 
+		- Sourced over 200 servers (each costing less than USD 6 per year) \& setup infrastructure on them to bypass the throttling imposed by Google on scraping the data of around 3 million apps on Play Store.
+
+	\setlength{\leftskip}{0pt}
+
+    \item \textbf{Founder - ViralCents.com} \hspace{82mm} Feb 2016 - May 2016 \\ B2B2C product for incentivized social sharing of advertisor's content by publishers on social media.
     
-    \item \textbf{Backend/Growth Engineer - Taskbob.com} \hspace{54mm} Apr 2015 - Dec 2015 \\ Backend and growth hacking in Python. Setup and automation of systems infrastructure running on AWS; ElasticSearch Logstash Kibana (ELK) for log management.
+    \item \textbf{Growth Engineer - Taskbob.com} \hspace{54mm} Apr 2015 - Dec 2015 \\ Growth \& Backend Engineering in Python. Setup and automation of systems infrastructure running on AWS (EC2, S3, CloudFront, RDS etc); ElasticSearch Logstash Kibana (ELK) for log management.
     
     \item \textbf{DevOps Engineer - Tinyowl.com} \hspace{70mm} Jan 2014 - Nov 2014 \\ Setup and automation of systems infrastructure Ruby on Rails, Ubuntu server, Nginx, Passenger, PostgreSQL, PostGIS, MongoDB, ElasticSearch, Memcached, Redis, Resque, Ansible, Sentry, Docker, Python, BeautifulSoup, Locust, ACRA, AWS (EC2, S3, Autoscaling, ELB, CloudFront, VPC, CloudWatch, IAM, CloudFormation), log management (logrotate, AWS S3, ElasticSearch, GrayLog2, Logstash).
     
 	\item \textbf{Google Summer of Code - OpenCog Foundation} \hspace{40mm} May 2012 - Aug 2012 \\ Fully automated build, packaging and deployment of OpenCog instances for Linux and Cygwin port.
 
-	\item \textbf{Developer and Sysadmin - iips.edu.in} \hspace{60mm} Sep 2012 - Mar 2013 \\ Volunteer system administrator and developer at e-governance center at IIPS, Devi Ahilya University.
+	\item \textbf{System Administrator - iips.edu.in} \hspace{60mm} Sep 2012 - Mar 2013 \\ Volunteer system administrator and developer at e-governance center at IIPS, Devi Ahilya University.
 
 	\end{list2}
 
-    % Projects
-    \section{\mysidestyle Personal \\ Projects} 
-	\begin{list2}
+	% Skills
+    \section{\mysidestyle Skills} 
 
-	\item \textbf{Play Store Keywords Tool}\footnote{Play Store Keywords Tool: \url{http://amberja.in:5000/}}: Keyword Research for App Store Optimization (ASO) on Google Play Store. Built with Flask, Python, Bootstrap, ZeroClipboard.js.
+    \begin{list2}
+	\item \textbf{Programming}: Python, Django, Flask, Bootstrap, HTML, CSS, Javascript, Ansible, bash, MATLAB/Octave, C
+	\item \textbf{Data stores}: PostgreSQL/MySQL, SQLite,	MongoDB, Redis
+	\item \textbf{Systems}: Nginx/Apache, HAProxy, Passenger/uWSGI/Gunicorn, Ubuntu/Debian Server, AWS, Google Cloud, Microsoft Azure, Sentry, ElasticSearch/Logstash/Kibana (ELK), Docker, Cygwin, (c)make
+	\end{list2}
+
+    % Growth Projects
+    \section{\mysidestyle Growth Projects} 
+	\begin{list2}
 	
-	\item \textbf{Time Your Instagram}\footnote{Time Your Instagram \url{http://amberja.in:9000/}}: Suggests optimal time for Instagram posts (Python/Flask/requests/Bootstrap).
+	\item \textbf{Quora Automation}: Set of scripts to piggyback on Quora traffic by automatically creating hundreds of questions \& answers daily, to drive thousands of additional pageviews every week.
 	
-	\item \textbf{Bulk Whatsapp Sender}: Proof-of-concept bulk whatsapp message sender by leveraging functional testing; Uses Genymotion, Appium, Python.
+	\item \textbf{Hurricane IP}: Product that gets tens of thousands of unique IPs daily, catering to needs of digital marketing \& data scraping companies.
+	
+	\item \textbf{MacAppStore.org}: SEO of personal project wih \$0 marketing budget:
+
+	\setlength{\leftskip}{15pt}
+	
+		- Content for over ~5100 pages created automatically using a script in 2015.
+	
+		- Over 165,000 pageviews every month, with 90\% organic traffic from Google.
+	
+		- 50\% traffic from USA, UK, Germany, France, Canada, Japan and China.
+	
+		- Over 3000 organic backlinks.from high Domain Authority (DA) websites.
+	
+		- High authority website on Google (one of Alexa Top 100000 websites).
+	
+	\setlength{\leftskip}{0pt}
+	
+	\item \textbf{HashGrowth.com}: SaaS platform to drive growth of mobile apps using Analytics, Keywords Research \& Insights for Google Play Store and Apple App Store.
+	
+	\item \textbf{Other Growth Projects}: I have worked on dozens of other growth engineering projects, which I can discuss only off-the-record (due to ethics and/or client confidentiality) during the interview.
+	
+	\end{list2}
+
+    % Engineering Projects
+    \section{\mysidestyle Engineering Projects} 
+	\begin{list2}
+	
+	\item \textbf{ML projects}: Implemented Machine Learning algorithms for automated handwritten digit recognition, spam classifier, image compression etc. in Octave/MATLAB for Coursera's Machine Learning class.
+	
+	\item \textbf{Bulk Whatsapp Sender}: Proof-of-concept bulk whatsapp message sender by leveraging functional testing; Built with Genymotion, Appium, Python.
 	
 	\item \textbf{Customer Data Platform (CDP)}: Hackathon project to aggregate data from 3rd party profile enrichment services (augur.io, 360social.me, foursquare etc.) Made in Python, BeautifulSoup.
+	
+	\item \textbf{Time Your Instagram}\footnote{Time Your Instagram \url{http://amberja.in:9000/}}: Suggests optimal time for Instagram posts (Python/Flask/requests/Bootstrap).
 	
 	\item \textbf{MOOC posters}\footnote{MOOC Posters: \url{http://mooc-posters.in/}}: Full stack development of Python/Django website to generate printable PDF posters for online courses from Coursera.
 	
@@ -56,65 +108,63 @@
 	
 	\item \textbf{udacity-cs101}: Implemented a web crawler and search engine in Python for Udacity's CS101 course.
 	
-	\item \textbf{ml-class}: Implemented Machine Learning algorithms for automated handwritten digit recognition, spam classifier, image compression etc. in Octave/MATLAB for Coursera's Machine Learning class.
-	
     \end{list2}
 
 	% Talks
 	\section{\mysidestyle Talk(s)}
 	\begin{list2}
+	\item \textbf{Facts \& Fallacies about Growth Hacking} at BarCamp Bangalore (Feb 2018)
 	\item \textbf{Design for Non-designers} at BarCamp Mumbai (Dec 2014)
-	\end{list2}
-
-    % Skills
-    \section{\mysidestyle Skills} 
-
-    \begin{list2}
-	\item \textbf{Programming/Scripting}: \hspace{2mm} Python, Django, Flask, Bootstrap, HTML, CSS, Javascript, Ansible, bash, MATLAB/Octave, C
-	\item \textbf{Databases/Serialization}: \hspace{4.4mm} PostgreSQL, SQLite,	MongoDB, Redis, JSON
-	\item \textbf{Systems}: \hspace{32mm}  Nginx/Apache, Passenger/UWSGI/Gunicorn, Ubuntu Server, AWS, Google Cloud, Azure, Docker, Sentry, ElasticSearch/Logstash/Kibana (ELK), Cygwin, (c)make
 	\end{list2}
 
     % Certifications \\ *- ONGOING
     \section{\mysidestyle Certificates}
 
     \begin{list2}
-    \item \textbf{Gamification} (Coursera) \hspace{74mm} \textbf{98\% (Verified Certificate)}
-    
-	\item \textbf{Startup Engineering} (Coursera) \hspace{94mm} \textbf{83.4\%}
+    % Coursera
+	\item \textbf{Machine Learning} (Stanford University) \hspace{38mm} \textbf{77/80 (HW), 800/800 (Coding)}
+	
+	\item \textbf{CS271: Introduction to Artificial Intelligence} (Udacity) \hspace{52mm} \textbf{91.7\%}
+	
+	% Coursera
+	\item \textbf{Startup Engineering} (Stanford University) \hspace{78mm} \textbf{83.4\%}
+	
+    % Coursera
+    \item \textbf{Gamification} (University of Pennsylvania) \hspace{47mm} \textbf{98\% (Verified Certificate)}
+	
+	% Coursera
+	\item \textbf{Computing for Data Analysis} (Johns Hopkins University) \hspace{28mm} \textbf{99\% with Distinction}
 
-	\item \textbf{Introduction to Databases} (Class2Go) \hspace{64mm} \textbf{225.0 out of 293.0}
+	% Class2Go
+	\item \textbf{Introduction to Databases} (Stanford University) \hspace{46mm} \textbf{225.0 out of 293.0}
 
 	\item \textbf{CS101: Introduction to Computer Science} (Udacity) \hspace{34mm} \textbf{Highest Distinction}
+	
+	% Coursera
+    \item \textbf{Model Thinking} (University of Michigan) \hspace{44mm} \textbf{91.1\% (Verified Certificate)}
 
-	\item \textbf{Machine Learning} (Coursera) \hspace{54mm} \textbf{77/80 (HW), 800/800 (Coding)}
+	% Coursera
+	\item \textbf{Networked Life} (University of Pennsylvania) \hspace{77mm} \textbf{95.6\%}
 
-	\item \textbf{CS271: Introduction to Artificial Intelligence} (Udacity) \hspace{52mm} \textbf{91.7\%}
-
-	\item \textbf{Networked Life} (Coursera) \hspace{104mm} \textbf{95.6\%}
-
-	\item \textbf{Computing for Data Analysis} (Coursera) \hspace{52mm} \textbf{99\% with Distinction}
-
-    \item \textbf{Model Thinking} (Coursera) \hspace{65mm} \textbf{91.1\% (Verified Certificate)}
-
-	\item \textbf{Writing in the Sciences} (Coursera) \hspace{60mm} \textbf{97.8\% with Distinction}
+	% Coursera
+	\item \textbf{Writing in the Sciences} (Stanford University) \hspace{45mm} \textbf{97.8\% with Distinction}
 	\end{list2}
 
     % Education \\ *- ONGOING
     \section{\mysidestyle Education}
 
     \begin{list2}
-	\item \textbf{Master of Computer Applications} MCA (D.A. University, May 2013) \hspace{16mm} \textbf{CGPA: 7.84/10} 
+	\item \textbf{Master of Computer Applications}, MCA (D.A. University, May 2013) \hspace{16mm} \textbf{CGPA: 7.84/10} 
 	\end{list2}
 
 	\begin{list2}
-	\item \textbf{Bachelor of Computer Applications} BCA (D.A. University, Jun 2010) \hspace{15mm} \textbf{CGPA: 7.55/10}
+	\item \textbf{Bachelor of Computer Applications}, BCA (D.A. University, Jun 2010) \hspace{15mm} \textbf{CGPA: 7.55/10}
 	\end{list2}
 
     % Miscellaneous
     \section{\mysidestyle Hobbies}
     \begin{list2}
-    \item Reading Books, Blogging, Swimming, Hockey, Table Tennis, Badminton
+    \item Reading Books, Cycling, Badminton, Blogging, Swimming, Hockey.
     %\item Languages: English, Hindi
     %\item Citizenship: India
     %\item Relocation preference: Willing to work remotely or relocate to a new city/country.
